@@ -17,10 +17,10 @@ const [letras,num]=retornaArreglo();
 console.log(letras,num);
 
 //tarea
-const usState=(valor)=>{
+const useState=(valor)=>{
   return [valor,()=>{console.log('hola mundo')}];
 
 };
-const [nombre,setNombre]=usState('Goku');
+const [nombre,setNombre]=useState('Goku');
 console.log(nombre);
 setNombre();

@@ -14,13 +14,13 @@ setInputValue(e.target.value);
 };
 const handleSubmit=(evento)=>{
     evento.preventDefault();//=>para prevenir el comportamineto por defecto del formulario
-    console.log('submit hecho');
+    console.log('Submit al 100%');
     if (inputValue.trim().length>2) {
 
         setCategories(cats=>[inputValue,...cats]);
         setInputValue('');
     } else {
-        console.warn('eror');
+        console.warn('error en la ejecucion');
     }
    
     
