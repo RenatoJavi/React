@@ -20,7 +20,7 @@ const handleSubmit=(evento)=>{
         setCategories(cats=>[inputValue,...cats]);
         setInputValue('');
     } else {
-        console.warn('error en la ejecucion');
+        console.warn('error en la ejecucion de cargar datos' );
     }
    
     
