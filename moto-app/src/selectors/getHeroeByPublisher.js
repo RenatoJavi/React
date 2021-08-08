@@ -1,5 +1,5 @@
 
-import { heroes } from '../data/heroes'
+import { heroesDatos } from '../data/heroesDatos'
 
 export const getHeroeByPublisher = (publisher) => {//obtener publisher
 
@@ -11,7 +11,8 @@ export const getHeroeByPublisher = (publisher) => {//obtener publisher
 
     }
 
-    return heroes.filter(hero=>hero.publisher===publisher)
+    return heroesDatos.filter(hero=>hero.publisher===publisher)
     //ocupo el filter pq es un string, caso contario find
+    //filtro de heroesDatos el publidher
    
 }

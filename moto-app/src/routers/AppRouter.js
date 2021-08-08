@@ -12,6 +12,7 @@ import { DashBoardHijaRouter } from './DashBoardHijaRouter';
 export const AppRouter = () => {
     return (
         <Router>
+          <h1>Sonia eres una LOCA </h1>
           <div>
          
             <Switch>

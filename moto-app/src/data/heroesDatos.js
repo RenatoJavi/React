@@ -1,14 +1,7 @@
-export const heroes = [
+export const heroesDatos = [
+  
     {
-        'id': 'dc-batman',
-        'superhero':'Batman', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Bruce Wayne',
-        'first_appearance':'Detective Comics #27',
-        'characters':'Bruce Wayne'
-    },
-    {
-        'id': 'dc-superman',
+        'id': 'dcsuperman',
         'superhero':'Superman', 
         'publisher':'DC Comics', 
         'alter_ego':'Kal-El',
@@ -16,7 +9,7 @@ export const heroes = [
         'characters':'Kal-El'
     },
     {
-        'id': 'dc-flash',
+        'id': 'dcflash',
         'superhero':'Flash', 
         'publisher':'DC Comics', 
         'alter_ego':'Jay Garrick',
@@ -24,7 +17,7 @@ export const heroes = [
         'characters':'Jay Garrick, Barry Allen, Wally West, Bart Allen'
     },
     {
-        'id': 'dc-green',
+        'id': 'dcgreen',
         'superhero':'Green Lantern', 
         'publisher':'DC Comics', 
         'alter_ego':'Alan Scott',
@@ -32,7 +25,7 @@ export const heroes = [
         'characters':'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz'
     },
     {
-        'id': 'dc-arrow',
+        'id': 'dcarrow',
         'superhero':'Green Arrow', 
         'publisher':'DC Comics', 
         'alter_ego':'Oliver Queen',
@@ -40,7 +33,7 @@ export const heroes = [
         'characters':'Oliver Queen'
     },
     {
-        'id': 'dc-wonder',
+        'id': 'dcwonder',
         'superhero':'Wonder Woman', 
         'publisher':'DC Comics', 
         'alter_ego':'Princess Diana',
@@ -48,7 +41,7 @@ export const heroes = [
         'characters':'Princess Diana'
     },
     {
-        'id': 'dc-martian',
+        'id': 'dcmartian',
         'superhero':'Martian Manhunter', 
         'publisher':'DC Comics', 
         'alter_ego':'J\'onn J\'onzz',
@@ -56,7 +49,7 @@ export const heroes = [
         'characters':'Martian Manhunter'
     },
     {
-        'id': 'dc-robin',
+        'id': 'dcrobin',
         'superhero':'Robin/Nightwing', 
         'publisher':'DC Comics', 
         'alter_ego':'Dick Grayson',
@@ -64,7 +57,7 @@ export const heroes = [
         'characters':'Dick Grayson'
     },
     {
-        'id': 'dc-blue',
+        'id': 'dcblue',
         'superhero':'Blue Beetle', 
         'publisher':'DC Comics', 
         'alter_ego':'Dan Garret',
@@ -72,7 +65,7 @@ export const heroes = [
         'characters':'Dan Garret, Ted Kord, Jaime Reyes'
     },
     {
-        'id': 'dc-black',
+        'id': 'dcblack',
         'superhero':'Black Canary', 
         'publisher':'DC Comics', 
         'alter_ego':'Dinah Drake',
@@ -80,7 +73,7 @@ export const heroes = [
         'characters':'Dinah Drake, Dinah Lance'
     },
     {
-        'id': 'marvel-spider',
+        'id': 'marvelspider',
         'superhero':'Spider Man', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Peter Parker',
@@ -88,7 +81,7 @@ export const heroes = [
         'characters':'Peter Parker'
     },
     {
-        'id': 'marvel-captain',
+        'id': 'marvelcaptain',
         'superhero':'Captain America', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Steve Rogers',
@@ -96,7 +89,7 @@ export const heroes = [
         'characters':'Steve Rogers'
     },
     {
-        'id': 'marvel-iron',
+        'id': 'marveliron',
         'superhero':'Iron Man', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Tony Stark',
@@ -104,7 +97,7 @@ export const heroes = [
         'characters':'Tony Stark'
     },
     {
-        'id': 'marvel-thor',
+        'id': 'marvelthor',
         'superhero':'Thor', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Thor Odinson',
@@ -112,7 +105,7 @@ export const heroes = [
         'characters':'Thor Odinson'
     },
     {
-        'id': 'marvel-hulk',
+        'id': 'marvelhulk',
         'superhero':'Hulk', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Bruce Banner',
@@ -120,7 +113,7 @@ export const heroes = [
         'characters':'Bruce Banner'
     },
     {
-        'id': 'marvel-wolverine',
+        'id': 'marvelwolverine',
         'superhero':'Wolverine', 
         'publisher':'Marvel Comics', 
         'alter_ego':'James Howlett',
@@ -128,7 +121,7 @@ export const heroes = [
         'characters':'James Howlett'
     },
     {
-        'id': 'marvel-daredevil',
+        'id': 'marveldaredevil',
         'superhero':'Daredevil', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Matthew Michael Murdock',
@@ -136,7 +129,7 @@ export const heroes = [
         'characters':'Matthew Michael Murdock'
     },
     {
-        'id': 'marvel-hawkeye',
+        'id': 'marvelhawkeye',
         'superhero':'Hawkeye', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Clinton Francis Barton',
@@ -144,7 +137,7 @@ export const heroes = [
         'characters':'Clinton Francis Barton'
     },
     {
-        'id': 'marvel-cyclops',
+        'id': 'marvelcyclops',
         'superhero':'Cyclops', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Scott Summers',
@@ -152,7 +145,7 @@ export const heroes = [
         'characters':'Scott Summers'
     },
     {
-        'id': 'marvel-silver',
+        'id': 'marvelsilver',
         'superhero':'Silver Surfer', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Norrin Radd',
